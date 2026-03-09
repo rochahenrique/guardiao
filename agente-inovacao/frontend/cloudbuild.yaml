@@ -1,0 +1,11 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '--build-arg'
+      - 'VITE_API_URL=https://agente-backend-984406259368.southamerica-east1.run.app'
+      - '-t'
+      - 'gcr.io/agente-ideias-rh/frontend'
+      - '.'
+images:
+  - 'gcr.io/agente-ideias-rh/frontend'
