@@ -34,7 +34,7 @@ app.add_middleware(
 # Cliente OpenAI (Proxy DTA)
 client = OpenAI(
     base_url=os.getenv("DTA_PROXY_URL", "https://proxy.dta.totvs.ai"),
-    api_key=os.getenv("DTA_API_KEY", "sk-Q2m_kNH3orWeZX611razEQ"),
+    api_key=os.getenv("DTA_API_KEY", "aaaaaaaaaaa"),
 )
 
 # Configurações
